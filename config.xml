@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<Configuration ID="45b3665b-2975-464b-97f2-f9b02baed84c">
+
+
+<Add Channel="Current" OfficeClientEdition="64">
+
+
+<Product ID="O365BusinessRetail">
+
+<Language ID="en-us"/>
+
+<ExcludeApp ID="Groove"/>
+
+<ExcludeApp ID="Lync"/>
+
+</Product>
+
+</Add>
+
+<Updates Enabled="TRUE"/>
+
+<RemoveMSI/>
+
+
+<AppSettings>
+
+<User Id="L_SaveExcelfilesas" App="excel16" Type="REG_DWORD" Value="51" Name="defaultformat" Key="software\microsoft\office\16.0\excel\options"/>
+
+<User Id="L_SavePowerPointfilesas" App="ppt16" Type="REG_DWORD" Value="27" Name="defaultformat" Key="software\microsoft\office\16.0\powerpoint\options"/>
+
+<User Id="L_SaveWordfilesas" App="word16" Type="REG_SZ" Value="" Name="defaultformat" Key="software\microsoft\office\16.0\word\options"/>
+
+</AppSettings>
+
+<Display AcceptEULA="TRUE" Level="Full"/>
+
+</Configuration>
